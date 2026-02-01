@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top {
+    background-color: #0c2a8d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cv {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e64d4;
+    color: white;
+    padding: 50px 0;
+}
+
+#top a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#top a:hover {
+    text-decoration: underline;
+}
+
+#top h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cv button {
+    background-color: #ffcc00;
+    border: 1px solid #d4a700;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#cv button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#cv button:hover {
+    background-color: #e6b800;
+}
+
+#cv h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#cv pre {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f0f0f0;
+}
+.container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0c2a8d;
+    padding: 20px 0;
+}
+.container {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.containerprojects {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #0c2a8d;
+}
+.containerprojects h2 {
+  color: #ffffff;   
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+#about pre, #projects pre, #skills pre, #contact pre {
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 16px;
+}
+
+#about h2, #skills h2, #contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0c2a8d;
+    padding: 20px 0;
+}
+
+.container pre {
+    text-align: left;
+    line-height: 1.6rem;
+}
+#skills{
+    padding: 20px 0;
+    padding-left: 20px;
+}
+#skills h3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #1aaef3;
+}
+.wrapper {
+    background-color: #cdf0f1;
+    width: 80%;
+    border: 1px solid #a0c0c0;
+    margin: 0 auto;
+}
+.wrappercards {
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.wrapperprojects {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.wrapper li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+.card{
+    border: 4px solid #003366;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: left;
+}
+#projects{
+    background-color: #0c2a8d;
+}
+.cardprojects {
+  border: 2px solid #ffffff;
+  background-color: #1a3d9c; 
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px auto;
+  text-align: center;
+  max-width: 500px;
+}
+.cardprojects button{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cardprojects button a{
+    text-decoration: none;
+    color: #0c2a8d;
+    font-weight: bold;
+}
+.cardprojects button:hover{
+    background-color: #f0f0f0;
+}
+.cardprojects h3{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.cardprojects p{
+    line-height: 1.4rem;
+}
+.card h3{
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.card p{
+    line-height: 1.4rem;
+}
+.card a{
+    color: #0c2a8d;
+    text-decoration: none;
+}
+.card a:hover{
+    text-decoration: underline;
+}
+.card button{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #003366;
+    border: 1px solid #002244;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.card h4{
+    margin-top: 10px;
+    color: red;
+}
+.card hr{
+    border: 1px solid #a0c0c0;
+    margin: 10px 0;
+}
+.card h5 span{
+    font-weight: normal;
+    color: #333333;
+    font-size: 18px;
+}
+.card h5{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #003366;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0c2a8d;
+    padding: 20px 0;
+}
+
+
+#contact p a {
+    color: white;
+    text-decoration: none;
+}
+#contact p a:hover {
+    text-decoration: underline;
+}
+#contact hr {
+    border: 1px solid #555555;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+@media (max-width: 1013px) {
+    #top {
+        padding: 15px;
+    }
+
+    #top h1 {
+        font-size: 20px;
+    }
+
+    #top a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #cv {
+        padding: 30px 0;
+    }
+
+    #cv h2 {
+        font-size: 24px;
+    }
+
+    #cv button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #cv pre {
+        text-align: center;
+        line-height: 1.6rem;
+        font-size: 16px;
+        white-space: normal;   
+        word-wrap: break-word; 
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    #about h2, #projects h2, #skills h2, #contact h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding: 20px 0 10px 0;
+    }
+    #about pre, #projects pre, #skills pre, #contact pre {
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 16px;
+    white-space: normal;   
+    word-wrap: break-word; 
+}
+    .wrapper {
+        width: 100%;
+    }
+    .wrapper li{
+        font-size: 14px;
+    }
+    #skills pre ul, #projects pre ul, #about pre ul, #contact pre ul {
+        padding-left: 15px;
+    }
+    #skills{
+        padding: 10px 0;
+    }
+
+}
